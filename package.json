@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/jakersource/SlackBoltJs#readme",
   "devDependencies": {
+    "@types/express": "^4.16.1",
     "tslint": "^5.12.1",
     "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
   }
 }
