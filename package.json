@@ -1,0 +1,19 @@
+{
+  "name": "slackboltjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakersource/SlackBoltJs.git"
+  },
+  "author": "Jake Ruiz Zeledon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakersource/SlackBoltJs/issues"
+  },
+  "homepage": "https://github.com/jakersource/SlackBoltJs#readme"
+}
