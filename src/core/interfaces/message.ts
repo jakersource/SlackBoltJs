@@ -1,5 +1,5 @@
 export interface Message {
-  claps: string;
+  claps: string[];
   user: string;
   message: string;
 }
