@@ -1,17 +1,19 @@
 import { Message } from "../core/interfaces/message";
 
-let clapsFounded: string;
+let clapsFounded: string[];
 let userFinded: string;
 let messageFinded: string;
 
 export function setValuesMessage(message: string): void {
+  setClaps(message);
   setUser(message);
   setMessageValues(message);
-  setClaps(message);
 }
 
 function setClaps(message: string): void {
-  clapsFounded = message.substring(0, message.indexOf("<")).trim();
+  clapsFounded = message
+    .split(" ")
+    .filter((claps) => claps.startsWith(":clap:"));
 }
 
 function setUser(message: string): void {
